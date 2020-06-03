@@ -3,6 +3,7 @@
 ## Clean Code
 + Métodos empiezan en Mayúsculas
 + /// para comentar lo que hace un método especifico.
++ `'` se usa para tipo char
 
 ## Atajos
 + `ctor` => Constructor
