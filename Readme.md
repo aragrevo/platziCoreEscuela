@@ -1,12 +1,5 @@
 # Notas
 
-##
-+ ¿Cuál es el comando de consola para compilar una solución de .net core? => dotnet run
-+ Respecto a las colecciones y los arreglos: => 
-+ En el flujo del programa no es conveniente establecer validaciones para objetos nulos: => True
-+ Ud es el arquitecto de software de una pequeña compañía de software => Arreglo
-+ Se requiere guardar información de clientes en la aplicación Perfect Banking, => Variable contador
-
 ## Clean Code
 + Métodos empiezan en Mayúsculas
 + /// para comentar lo que hace un método especifico.
@@ -20,6 +13,10 @@
 ## Apuntes
 `Predicate` => Callback? `delegate` => retorna bool, recibe un Tipo Genérico
 `static class` => No permite crear instancias, la clase en sí funciona como un Objeto.
+``abstract`` => para que dicha clase solamente pueda ser heredada, pero nunca instanciada
+``sealed`` => 'Sellada' permite generar instancias de la clase, pero no permite heredarla.
+
+
 
 ## Código
 Agregar datos Lista
