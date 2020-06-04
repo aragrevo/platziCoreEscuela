@@ -10,6 +10,7 @@
 + `ctor` => Constructor
 + `prop` => Propiedades Get & Set
 + `ctrl + .` => Definiciones
++ ``#region`` ``#endregion`` => colapsar todo ese bloque de código mejorando la legibilidad
 
 ## Apuntes
 `Predicate` => Callback? `delegate` => retorna bool, recibe un Tipo Genérico  
