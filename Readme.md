@@ -22,6 +22,10 @@ En polimorfismo un objeto hijo que hereda de una clase padre puede ser tratado c
 ``is`` para verificar si un objeto es de un tipo en específico.  
 ``as`` para tratar un objeto como un tipo específico, en caso de no poder convertir el objeto entonces va a asignar un valor null.
 
+> **Interface**  
+Es la definición de la estructura de un objeto. Las interfaces las podemos tomar como contratos en las que obligamos a que los objetos cumplan determinadas características.
+
+
 ## Código
 Agregar datos Lista
 ```cs
