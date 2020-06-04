@@ -2,7 +2,7 @@ using System;
 
 namespace CoreEscuela.Entidades
 {
-    public class Evaluaciones
+    public class Evaluación
     {
         public string UniqueId { get; private set; }
         public string Nombre { get; set; }
@@ -10,6 +10,6 @@ namespace CoreEscuela.Entidades
         public Asignatura Asignatura { get; set; }
         public float Nota { get; set; }
 
-        public Evaluaciones() => UniqueId = Guid.NewGuid().ToString();
+        public Evaluación() => UniqueId = Guid.NewGuid().ToString();
     }
 }
