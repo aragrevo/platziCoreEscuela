@@ -16,6 +16,8 @@ namespace CoreEscuela
             Printer.WriteTitle("BIENVENIDOS");
             WriteLine(engine.Escuela);
             ImprimirCursos(engine.Escuela);
+
+            var listaObjetos = engine.GetObjetosEscuela();
         }
 
 

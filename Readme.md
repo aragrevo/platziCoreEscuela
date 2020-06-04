@@ -4,6 +4,7 @@
 + Métodos empiezan en Mayúsculas
 + /// para comentar lo que hace un método especifico.
 + `'` se usa para tipo char
++ `4.5f` crear float se agrega `f` al final.
 
 ## Atajos
 + `ctor` => Constructor
@@ -11,12 +12,15 @@
 + `ctrl + .` => Definiciones
 
 ## Apuntes
-`Predicate` => Callback? `delegate` => retorna bool, recibe un Tipo Genérico
-`static class` => No permite crear instancias, la clase en sí funciona como un Objeto.
-``abstract`` => para que dicha clase solamente pueda ser heredada, pero nunca instanciada
-``sealed`` => 'Sellada' permite generar instancias de la clase, pero no permite heredarla.
+`Predicate` => Callback? `delegate` => retorna bool, recibe un Tipo Genérico  
+`static class` => No permite crear instancias, la clase en sí funciona como un Objeto.  
+``abstract`` => para que dicha clase solamente pueda ser heredada, pero nunca instanciada  
+``sealed`` => 'Sellada' permite generar instancias de la clase, pero no permite heredarla.  
+> **Polimorfismo**  
+En polimorfismo un objeto hijo que hereda de una clase padre puede ser tratado como un objeto padre, pero al ser convertido en objeto padre ya no se podrá acceder a los atributos del objeto hijo. Por otro lado, un objeto padre no puede tratarse como un objeto hijo a menos que el objeto padre estuviera guardando un objeto hijo
 
-
+``is`` para verificar si un objeto es de un tipo en específico.  
+``as`` para tratar un objeto como un tipo específico, en caso de no poder convertir el objeto entonces va a asignar un valor null.
 
 ## Código
 Agregar datos Lista
