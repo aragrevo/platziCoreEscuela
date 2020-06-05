@@ -1,4 +1,14 @@
 # Notas
+Apuntes de los cursos:
+[Fundamentos de C# con NET Core](https://platzi.com/clases/fundamentos-csharp/)
+[Curso de C# con .Net Core](https://platzi.com/clases/c-sharp/)
+Durante los cuales se creó el proyecto CoreEscuela, para la administración de una Escuela con:
+1. Escuela
+2. Cursos
+3. Asignaturas
+4. Alumnos
+5. Evaluaciones
+
 
 ## Clean Code
 + Métodos empiezan en Mayúsculas
@@ -26,8 +36,10 @@ En polimorfismo un objeto hijo que hereda de una clase padre puede ser tratado c
 > **Interface**  
 Es la definición de la estructura de un objeto. Las interfaces las podemos tomar como contratos en las que obligamos a que los objetos cumplan determinadas características.
 
-``#region`` ``#endregion`` colapsar todo ese bloque de código mejorando la legibilidad
-`out` parámetro de salida dentro de la función
+``#region`` ``#endregion`` colapsar todo ese bloque de código mejorando la legibilidad  
+`out` parámetro de salida dentro de la función  
+Buena practica para las listas de datos que son de manera publica es regresar un tipo de lista genérico, como **_IEnumerable_** y en los casos donde serán de solo lectura regresar un tipo **_IReadOnlyList_**.  
+
 
 ## Código
 Asignación múltiple
