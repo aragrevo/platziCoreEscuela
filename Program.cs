@@ -18,7 +18,12 @@ namespace CoreEscuela
             WriteLine(engine.Escuela);
             ImprimirCursos(engine.Escuela);
 
-            var listaObjetos = engine.GetObjetosEscuela();
+            var listaObjetos = engine.GetObjetosEscuela(
+                out int conteoEvaluaciones,
+                out int conteoCursos,
+                out int conteoAsignaturas,
+                out int conteoAlumnos
+            );
 
             var listaLugar = from obj in listaObjetos
                              where obj is ILugar
