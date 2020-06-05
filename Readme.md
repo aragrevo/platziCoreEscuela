@@ -10,7 +10,7 @@
 + `ctor` => Constructor
 + `prop` => Propiedades Get & Set
 + `ctrl + .` => Definiciones
-+ ``#region`` ``#endregion`` => colapsar todo ese bloque de código mejorando la legibilidad
+
 
 ## Apuntes
 `Predicate` => Callback? `delegate` => retorna bool, recibe un Tipo Genérico  
@@ -26,8 +26,15 @@ En polimorfismo un objeto hijo que hereda de una clase padre puede ser tratado c
 > **Interface**  
 Es la definición de la estructura de un objeto. Las interfaces las podemos tomar como contratos en las que obligamos a que los objetos cumplan determinadas características.
 
+``#region`` ``#endregion`` colapsar todo ese bloque de código mejorando la legibilidad
+`out` parámetro de salida dentro de la función
 
 ## Código
+Asignación múltiple
+```cs
+conteoAlumnos = conteoAsignaturas = conteoEvaluaciones = 0;
+```
+
 Agregar datos Lista
 ```cs
 escuela.Cursos.Add(new Curso { Nombre = "102", Jornada = TiposJornada.Tarde });
