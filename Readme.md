@@ -1,8 +1,8 @@
 # Notas
 Apuntes de los cursos:
-[Fundamentos de C# con NET Core](https://platzi.com/clases/fundamentos-csharp/)
-[Curso de C# con .Net Core](https://platzi.com/clases/c-sharp/)
-Durante los cuales se creó el proyecto CoreEscuela, para la administración de una Escuela con:
+[Fundamentos de C# con NET Core](https://platzi.com/clases/fundamentos-csharp/) - 
+[Curso de C# con .Net Core](https://platzi.com/clases/c-sharp/), 
+durante los cuales se creó el proyecto CoreEscuela para la administración de una Escuela con:
 1. Escuela
 2. Cursos
 3. Asignaturas
@@ -12,7 +12,7 @@ Durante los cuales se creó el proyecto CoreEscuela, para la administración de 
 
 ## Clean Code
 + Métodos empiezan en Mayúsculas
-+ /// para comentar lo que hace un método especifico.
++ ``///`` para comentar lo que hace un método especifico.
 + `'` se usa para tipo char
 + `4.5f` crear float se agrega `f` al final.
 
