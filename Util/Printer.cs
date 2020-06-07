@@ -13,7 +13,7 @@ namespace CoreEscuela.Util
         {
             var tamaño = titulo.Length + 4;
             DrawLine(tamaño);
-            WriteLine($"| {titulo} |");
+            WriteLine($"| {titulo.ToUpper()} |");
             DrawLine(tamaño);
         }
     }
