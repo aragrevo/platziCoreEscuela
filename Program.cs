@@ -28,6 +28,9 @@ namespace CoreEscuela
             var listaLugar = from obj in listaObjetos
                              where obj is ILugar
                              select (ILugar)obj;
+
+            var dicti = engine.GetDiccionarioObjetos();
+            engine.ImprimirDiccionario(dicti, true);
         }
 
 
